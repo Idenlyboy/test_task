@@ -1,0 +1,51 @@
+body{
+    font:1.2em normal Arial,sans-serif;
+    color:#34495E;
+  }
+  
+  h1{
+    text-align:left;
+    text-transform:uppercase;
+    letter-spacing:-2px;
+    font-size:2em;
+    margin:20px 0;
+  }
+  
+  #contacts_container{
+    width:90%;
+    margin:auto;
+  }
+  
+  table{
+    width:100%;
+  }
+  
+  table.contacts{
+      border:3px solid #038157;
+  }
+  
+  thead{
+    background:#038157;
+    color:white;
+  }
+  
+  th,td{
+    text-align:center;
+    padding:5px 0;
+  }
+  
+  tbody tr:nth-child(even){
+    background:#ECF0F1;
+  }
+  
+  tbody tr:hover{
+  background:#BDC3C7;
+    color:#FFFFFF;
+  }
+  
+  .fixed{
+    top:0;
+    position:fixed;
+    width:auto;
+   display:none;
+  }
